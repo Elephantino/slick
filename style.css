@@ -1,0 +1,51 @@
+.slick {
+  position: relative;   /* позиционирование стрелок */
+  width: 100%;
+}
+.slick-slide {          /* центровка внутри слайда */
+  display: flex;              
+  justify-content: center;  
+  align-items: center;
+}
+.slick-track {
+  display: flex;
+  align-items: flex-start;   /* / ОБЯЗАТЕЛЬНО / по дефолту flex-align stretch и он тянет слайд */
+  min-width: 0;
+  gap: .7em;
+}
+.slick-list {
+  overflow: hidden;
+}
+
+
+.slick-arrow {
+  position: absolute;  /* позиционирование стрелок */
+  bottom: 50%;
+  font-size: 0;
+  width: 25px;
+  height: 20px;
+  z-index: 2;
+  transform: translateY(50%);
+}
+.slick-next {
+  right: -25px;
+  background-image: url('../img/arrow__right.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slick-prev {
+  left: -25px;
+  background-image: url('../img/arrow__left.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slick-disabled {
+  opacity: .3;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: space-evenly;
+}
