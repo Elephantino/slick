@@ -18,6 +18,7 @@
 }
 
 
+
 .slick-arrow {
   position: absolute;  /* позиционирование стрелок */
   bottom: 50%;
@@ -44,6 +45,8 @@
 .slick-disabled {
   opacity: .3;
 }
+
+
 
 .slick-dots {
   display: flex;

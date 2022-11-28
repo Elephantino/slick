@@ -5,7 +5,7 @@ $(function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     dots: true,
-    adaptiveHeight: true,
+    adaptiveHeight: true,  // адаптирует высоту только при одиночном слайде
     speed: 300,
     initialSlide: 1,
     // autoplay: true,
